@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/meshes
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/meshes/sample Robot part 2.stl
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/meshes/sample_Robot_Base.stl
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/meshes/Gripper v1.stl
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/meshes/Gripper Claw.stl
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/meshes/sample Robot Part 3.stl
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/urdf
+-- Installing: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/urdf/sample_robot.urdf.xacro
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/ament_index/resource_index/package_run_dependencies/sample_robot
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/ament_index/resource_index/parent_prefix_path/sample_robot
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/environment/path.sh
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/environment/path.dsv
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/local_setup.bash
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/local_setup.sh
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/local_setup.zsh
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/local_setup.dsv
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/package.dsv
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/ament_index/resource_index/packages/sample_robot
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/cmake/sample_robotConfig.cmake
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/cmake/sample_robotConfig-version.cmake
+-- Up-to-date: /home/kalash/sample_robot/install/sample_robot/share/sample_robot/package.xml

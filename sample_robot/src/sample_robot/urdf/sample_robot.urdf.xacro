@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="sample_robot">
+<xacro:property name ="Pi" value= "3.14159"/>
+<xacro:property name ="effort" value= "30.0"/>
+<xacro:property name ="velocity" value= "10.0"/>
+
+    <link name="world"/>
+        
+    <link name="base_link">
+    <visual>
+    <origin rpy="0 0 0" xyz="-0.335 0.03 0.47"/>
+        <geometry>
+            <mesh filename="package://sample_robot/meshes/sample_Robot_Base.stl" scale = "0.01 0.01 0.01" />
+        </geometry>
+    </visual>
+        
+    </link>
+    <joint name="virtual_joint" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>    
+    </joint>
+
+<link name="base_plate">
+    <visual>
+        <origin rpy="0 0 0" xyz="-0.335 0.03 0"/>
+        <geometry>
+            <mesh filename="package://sample_robot/meshes/sample_Robot_part2.stl" scale = "0.01 0.01 0.01"/>
+        </geometry>
+    </visual>
+</link>
+<joint name="joint_1" type="revolute">
+    <parent link="base_link"/>
+    <child link="base_plate"/>
+    <axis xyz="0 0 1"/>
+    <origin xyz="0 0.0 0.47" rpy="0.0 0.0 0"/>
+    <limit lower="-${Pi/2}" upper="${Pi/2}" effort="${effort}" velocity="${velocity}"/>
+</joint>
+
+
+<link name="elbow">
+    <visual>
+        <origin rpy="0 0 0" xyz="-0.35 0.02 -1.45"/>
+        <geometry>
+            <mesh filename="package://sample_robot/meshes/sample_Robot_part3.stl" scale = "0.01 0.01 0.01"/>
+        </geometry>
+    </visual>
+</link>
+<joint name="joint_2" type="revolute">
+    <parent link="base_plate"/>
+    <child link="elbow"/>
+    <axis xyz="0 1 0"/>
+    <origin xyz="0 0.0 1.45" rpy="0.0 0.0 0"/>
+    <limit lower="-${Pi/2}" upper="${Pi/2}" effort="${effort}" velocity="${velocity}"/>
+    </joint>
+
+<link name="wrist_link">
+    <visual>
+    <origin rpy="-${Pi/2} 0 ${Pi/2}" xyz="-1.90 0.0 0.0"/>
+        <geometry>
+            <mesh filename="package://sample_robot/meshes/Gripper_v1.stl" scale = "0.008 0.008 0.008" />
+        </geometry>
+    </visual>
+        
+    </link>
+    <joint name="joint_3" type="fixed">
+    <parent link="elbow"/>
+    <child link="wrist_link"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>    
+    </joint>
+
+
+</robot>

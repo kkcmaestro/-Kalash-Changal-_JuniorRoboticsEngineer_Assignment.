@@ -1,0 +1,9 @@
+/home/kalash/sample_robot/build/sample_robot/CMakeFiles/uninstall.dir
+/home/kalash/sample_robot/build/sample_robot/CMakeFiles/sample_robot_uninstall.dir
+/home/kalash/sample_robot/build/sample_robot/CMakeFiles/test.dir
+/home/kalash/sample_robot/build/sample_robot/CMakeFiles/edit_cache.dir
+/home/kalash/sample_robot/build/sample_robot/CMakeFiles/rebuild_cache.dir
+/home/kalash/sample_robot/build/sample_robot/CMakeFiles/list_install_components.dir
+/home/kalash/sample_robot/build/sample_robot/CMakeFiles/install.dir
+/home/kalash/sample_robot/build/sample_robot/CMakeFiles/install/local.dir
+/home/kalash/sample_robot/build/sample_robot/CMakeFiles/install/strip.dir
